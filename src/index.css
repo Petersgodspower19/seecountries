@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+}
+
+.input {
+  box-shadow: 1px 1px 1px 1px grey;
+  border-radius: 4px;
+}
+
+.input:focus,
+.input:active {
+  outline: none;
+}
+
+.input-dark {
+  box-shadow: 1px 1px 1px 1px hsl(209, 23%, 25%);
+}
+option{
+  padding: 3px;
+}
+.btn{
+  border-radius: 5px;
+  padding: 4px;
+  z-index: 1;
+  box-shadow: 2px 2px 2px hsl(209, 23%, 25%);
+}
